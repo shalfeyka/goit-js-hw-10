@@ -67,7 +67,7 @@ function createCardMarkup (obj) {
 console.log([obj]);
 resetList();
 resetCard();
-        
+
 countryInfo.innerHTML = 
     `<h1 class="country-info__title">
         <img src="${obj.flags.svg}" alt="flag of ${obj.name.official}" class="country-info__img">
@@ -83,4 +83,4 @@ countryInfo.innerHTML =
         <h3>Languages:</h3>${Object.values(obj.languages)}
         </li>
     </ul>`
-};
+}; 

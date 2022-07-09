@@ -11,34 +11,31 @@ body {
   color: #212121;
   line-height: 1.5;
 }
-h1 {
-  text-decoration: underline;
-}
-h3 {
-  margin: 0 15px;
-  font-weight: 600;
-}
+
 #search-box {
-  padding: 15px;
-  max-width: 500px;
-  margin-bottom: 25px;
-}
-ul {
-  list-style: none;
-  padding: 0;
+font: inherit;
+  padding: 8px;
+  max-width: 320px;
+  margin-bottom: 16px;
 }
 
+h3 {
+margin: 0 20px;
+}
+ul {
+list-style: none;
+padding: 0;
+}
+img {
+  margin-right: 5;
+  width: 20;
+  }
 li {
   display: flex;  
   align-items: center;
-  margin-bottom: 15;
-  font-weight: 800;
-}
-
-img {
-margin-right: 50;
-}
-
-.country-info__img{
-  width: 199px;
-}
+  margin-bottom: 5;
+  font-weight: 500;
+  }
+  .country-info__img {
+    width: 37px;
+  }
